@@ -7,10 +7,28 @@ body {
   text-align: center;
   padding: 20px;
 }
-p {
+ol {
   color: #61dafb;
   font-size: 18px;
-  margin: 10px 0;
+  margin: 20px auto; /* Center the list and add more vertical space */
+  display: block; /* Make the list a block element */
+  text-align: left; /* Left-align text within list items */
+  width: fit-content; /* Make the list only as wide as its content */
+  margin-left: auto; /* Center the list horizontally */
+  margin-right: auto;
+  padding-left: 40px; /* Add padding for the numbers */
+}
+
+input {
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+  width: 100px;
+  display: block; /* Make input a block element */
+  margin-left: auto; /* Center the input */
+  margin-right: auto;
 }
 h1 {
   color: #bd9ee9;
